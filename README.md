@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GuardianWiFi
 
 Outil de détection d’**Evil Twin** et d’analyse Wi-Fi en temps réel, développé en Python. GuardianWiFi scanne les points d’accès, calcule un score de danger et signale les réseaux suspects (SSID piège, anomalie de signal, doublons SSID/BSSID).
@@ -147,3 +148,7 @@ Les AP dont le BSSID est dans la whitelist sont forcés à **0** (et non marqué
 ## Licence et responsabilité
 
 À utiliser uniquement sur des réseaux dont vous avez l’autorisation. Les auteurs déclinent toute responsabilité en cas d’usage illégal.
+=======
+# GuardianWiFi-EvilTwin-Detector
+GuardianWiFi is a Python-based Evil Twin Wi-Fi detector that actively scans the wireless environment. It utilizes monitor mode sniffing, advanced analysis of AP fingerprints (SSID, BSSID, channel, signal strength), and real-time alerts to protect users from malicious "Evil Twin" access points. Essential for network security enthusiasts.
+>>>>>>> 150fc916e36f7f0a2fbe1e8874dbe00ca0c17a1d
