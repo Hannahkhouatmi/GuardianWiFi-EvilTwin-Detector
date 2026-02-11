@@ -49,18 +49,22 @@ def load_whitelist():
 def send_alert_notification(ap):
     """Envoie une notification système en cas de danger critique."""
     now = time.time()
-    # On limite à une notification toutes les 5 minutes par antenne
+    
+    # DEBUG : Pour voir dans le terminal si la fonction est déclenchée
+    # print(f"[DEBUG] Tentative d'alerte pour {ap.ssid} (Score: {ap.danger_score})")
+
     if ap.bssid not in LAST_NOTIFIED or (now - LAST_NOTIFIED[ap.bssid]) > 300:
         try:
+            # On simplifie l'appel plyer pour Linux
             notification.notify(
-                title=f"⚠️ GUARDIANWIFI : MENACE {ap.danger_score}/10",
-                message=f"Réseau suspect : {ap.ssid}\nBSSID : {ap.bssid}\nType : {ap.anomaly_reason or 'Evil Twin probable'}",
-                app_name="GuardianWiFi",
-                timeout=10
+                title="ALERTE GUARDIANWIFI",
+                message=f"Réseau Suspect: {ap.ssid}\nScore: {ap.danger_score}/10",
+                timeout=5
             )
             LAST_NOTIFIED[ap.bssid] = now
-        except:
-            pass
+            # print(f"[DEBUG] Notification envoyée avec succès.")
+        except Exception as e:
+            print(f"[ERREUR NOTIFICATION] {e}")
 
 def hopper_worker(interface, channels):
     """Change de canal Wi-Fi régulièrement (Channel Hopping)."""

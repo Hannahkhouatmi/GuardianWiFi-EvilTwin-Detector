@@ -51,7 +51,7 @@ class APInfo:
     # Historiques pour analyses statistiques
     rssi_history: List[int] = field(default_factory=list)
     arrival_times: List[float] = field(default_factory=list)
-    
+    deauth_count: int = 0  # Nouveau : Compteur de paquets de déconnexion
     # Informations Constructeur
     vendor: str = "Unknown"
     
@@ -67,7 +67,24 @@ class APInfo:
     timing_anomaly: bool = False
     suspect_vendor: bool = False
     similar_ssid: bool = False # Nouveau drapeau
-
+    
+    def calculate_danger_level(self) -> int:
+        score = 0
+        if self.suspect_ssid: score += 1
+        if self.rssi_anomaly: score += 2
+        if self.timing_anomaly: score += 2
+        if self.duplicate_ssid: score += 3
+        if self.suspect_vendor: score += 2
+        if self.similar_ssid: score += 3
+        
+        # AJOUT : Si on détecte plus de 10 paquets de déconnexion
+        if self.deauth_count > 10:
+            score += 4 # C'est un signe d'attaque imminente !
+            self.anomaly_reason = "Deauth Attack Detected"
+            
+        self.danger_score = min(score, 10) # On plafonne à 10
+        return score
+    
     def __post_init__(self):
         """Initialisation après création de l'objet."""
         self.bssid = self.bssid.upper()
