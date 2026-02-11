@@ -6,8 +6,7 @@ from ap_model import (
     AP_STORE, AP_STORE_LOCK, APInfo, 
     cleanup_stale_aps, get_danger_level_name, update_ap_store
 )
-import nic_manager, packet_sniffer, simulator # Ajout de simulator
-
+import nic_manager, packet_sniffer, simulator, logger # Ajout de simulator et logger
 colorama_init(autoreset=True)
 STOP_EVENT = threading.Event()
 _SCRIPT_DIR = Path(__file__).resolve().parent
@@ -120,6 +119,12 @@ def main():
         while True:
             run_detection_check()
             display_aps()
+            with AP_STORE_LOCK:
+                logger.logger_instance.log_aps(AP_STORE) # <--- AJOUT
+                
+            cleanup_stale_aps(60)
+            time.sleep(1.5)
+    except KeyboardInterrupt:
             cleanup_stale_aps(60)
             time.sleep(1.5)
     except KeyboardInterrupt:
