@@ -60,33 +60,55 @@ def run_detection_check():
                         AP_STORE[b].is_evil_twin = True
 
 def display_aps():
+    # Nettoyage de l'écran (s'adapte à Windows ou Linux)
     os.system("clear" if os.name == "posix" else "cls")
-    print(f"{Fore.CYAN}{'='*105}")
+
+    # Largeur totale du tableau
+    width = 120
+    
+    print(f"{Fore.CYAN}{'='*width}")
     print(f"| GuardianWiFi Pro | SCANNING... | {datetime.now().strftime('%H:%M:%S')} | CTRL+C POUR QUITTER |")
-    print(f"{Fore.CYAN}{'='*105}")
-    header = f"| {'SSID':<25} | {'BSSID':<17} | {'CH':<3} | {'RSSI':<4} | {'SCORE':<5} | {'NIVEAU':<8} | {'REASON':<20} |"
+    print(f"{Fore.CYAN}{'='*width}")
+
+    # En-tête des colonnes
+    header = f"| {'SSID':<20} | {'BSSID':<17} | {'VENDOR':<15} | {'CH':<3} | {'RSSI':<4} | {'SCORE':<5} | {'NIVEAU':<8} |"
     print(header)
-    print("-" * 105)
+    print("-" * width)
 
     with AP_STORE_LOCK:
+        # On trie les réseaux par puissance de signal (RSSI) pour voir les plus proches en haut
         aps = sorted(AP_STORE.values(), key=lambda x: x.rssi, reverse=True)
+        
         for ap in aps:
+            # Choix de la couleur selon le score de danger
             color = Fore.GREEN
-            if ap.danger_score >= 4: color = Fore.RED + Style.BRIGHT
-            elif ap.danger_score >= 2: color = Fore.YELLOW
+            if ap.danger_score >= 4:
+                color = Fore.RED + Style.BRIGHT
+            elif ap.danger_score >= 2:
+                color = Fore.YELLOW
             
+            # Traduction du score en texte (Faible, Modéré, Critique)
             lvl = get_danger_level_name(ap.danger_score)
-            reason = (ap.anomaly_reason or "")[:20]
-            line = f"| {ap.ssid[:25]:<25} | {ap.bssid:<17} | {ap.channel:<3} | {ap.rssi:<4} | {ap.danger_score:<5} | {lvl:<8} | {reason:<20} |"
+            
+            # On tronque le SSID et le Vendor s'ils sont trop longs pour l'affichage
+            s_name = (ap.ssid[:20] if ap.ssid else "Hidden/Unknown")
+            v_name = (ap.vendor[:15] if ap.vendor else "Unknown")
+            
+            # Création de la ligne formatée
+            line = f"| {s_name:<20} | {ap.bssid:<17} | {v_name:<15} | {ap.channel:<3} | {ap.rssi:<4} | {ap.danger_score:<5} | {lvl:<8} |"
             print(f"{color}{line}")
 
-    print(f"{Fore.CYAN}{'='*105}")
+    # Pied de tableau
+    print(f"{Fore.CYAN}{'='*width}")
+
+    # Zone d'alertes textuelles (s'affiche uniquement si un danger est détecté)
     with AP_STORE_LOCK:
         checked_ssids = set()
         for ap in aps:
             if ap.duplicate_ssid and ap.ssid not in checked_ssids:
-                if ap.ssid != "Hidden/Unknown":
-                    print(f"{Fore.RED}{Style.BRIGHT}ALERTE : Plusieurs antennes diffusent le SSID [{ap.ssid}] ! RISQUE EVIL TWIN.")
+                if ap.ssid not in ["Hidden/Unknown", ""]:
+                    print(f"{Fore.RED}{Style.BRIGHT}!! ALERTE CRITIQUE : Le SSID [{ap.ssid}] est diffusé par plusieurs antennes.")
+                    print(f"{Fore.RED}   -> Cela indique une attaque Evil Twin en cours !")
                     checked_ssids.add(ap.ssid)
 
 def main():
