@@ -1,0 +1,1153 @@
+Timestamp,SSID,BSSID,Channel,RSSI,Score,Reason
+2026-02-11 04:38:32,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,0,N/A
+2026-02-11 04:38:32,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,1,N/A
+2026-02-11 04:38:32,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,1,N/A
+2026-02-11 04:38:32,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,0,N/A
+2026-02-11 04:38:33,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,3,N/A
+2026-02-11 04:38:33,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,1,N/A
+2026-02-11 04:38:33,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,1,N/A
+2026-02-11 04:38:33,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,3,N/A
+2026-02-11 04:38:35,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,3,N/A
+2026-02-11 04:38:35,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,1,N/A
+2026-02-11 04:38:35,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,1,N/A
+2026-02-11 04:38:35,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,3,N/A
+2026-02-11 04:38:36,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,3,N/A
+2026-02-11 04:38:36,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,1,N/A
+2026-02-11 04:38:36,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,1,N/A
+2026-02-11 04:38:36,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,3,N/A
+2026-02-11 04:38:38,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,3,N/A
+2026-02-11 04:38:38,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:38:38,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (4.2σ)
+2026-02-11 04:38:38,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,3,N/A
+2026-02-11 04:38:39,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,3,N/A
+2026-02-11 04:38:39,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:38:39,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (4.2σ)
+2026-02-11 04:38:39,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,3,N/A
+2026-02-11 04:38:41,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,3,N/A
+2026-02-11 04:38:41,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:38:41,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (4.2σ)
+2026-02-11 04:38:41,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,3,N/A
+2026-02-11 04:38:42,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,3,N/A
+2026-02-11 04:38:42,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:38:42,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (4.2σ)
+2026-02-11 04:38:42,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,3,N/A
+2026-02-11 04:38:44,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,3,N/A
+2026-02-11 04:38:44,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:38:44,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (4.2σ)
+2026-02-11 04:38:44,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,3,N/A
+2026-02-11 04:38:45,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,3,N/A
+2026-02-11 04:38:45,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:38:45,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (4.2σ)
+2026-02-11 04:38:45,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,3,N/A
+2026-02-11 04:38:47,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,3,N/A
+2026-02-11 04:38:47,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:38:47,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (4.2σ)
+2026-02-11 04:38:47,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,3,N/A
+2026-02-11 04:38:48,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,3,N/A
+2026-02-11 04:38:48,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:38:48,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (4.2σ)
+2026-02-11 04:38:48,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,3,N/A
+2026-02-11 04:38:50,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,3,N/A
+2026-02-11 04:38:50,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:38:50,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (4.2σ)
+2026-02-11 04:38:50,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,3,N/A
+2026-02-11 04:38:51,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,3,N/A
+2026-02-11 04:38:51,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:38:51,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (4.2σ)
+2026-02-11 04:38:51,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:38:53,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,3,N/A
+2026-02-11 04:38:53,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:38:53,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (4.2σ)
+2026-02-11 04:38:53,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:38:54,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,3,N/A
+2026-02-11 04:38:54,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:38:54,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (4.2σ)
+2026-02-11 04:38:54,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:38:56,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,3,N/A
+2026-02-11 04:38:56,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:38:56,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (4.2σ)
+2026-02-11 04:38:56,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:38:57,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,3,N/A
+2026-02-11 04:38:57,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:38:57,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (4.2σ)
+2026-02-11 04:38:57,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:38:59,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,3,N/A
+2026-02-11 04:38:59,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:38:59,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (4.2σ)
+2026-02-11 04:38:59,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:00,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,3,N/A
+2026-02-11 04:39:00,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:00,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (4.2σ)
+2026-02-11 04:39:00,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:02,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,3,N/A
+2026-02-11 04:39:02,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:02,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (4.2σ)
+2026-02-11 04:39:02,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:03,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,3,N/A
+2026-02-11 04:39:03,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:03,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:03,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:05,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,3,N/A
+2026-02-11 04:39:05,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:05,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:05,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:06,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,3,N/A
+2026-02-11 04:39:06,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:06,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:06,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:08,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,3,N/A
+2026-02-11 04:39:08,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:08,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:08,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:09,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,3,N/A
+2026-02-11 04:39:09,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:09,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:09,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:11,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,3,N/A
+2026-02-11 04:39:11,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:11,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:11,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:12,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,3,N/A
+2026-02-11 04:39:12,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:12,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:12,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:14,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,3,N/A
+2026-02-11 04:39:14,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:14,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:14,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:15,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,3,N/A
+2026-02-11 04:39:15,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:15,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:15,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:17,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,3,N/A
+2026-02-11 04:39:17,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:17,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:17,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:18,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,3,N/A
+2026-02-11 04:39:18,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:18,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:18,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:20,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,3,N/A
+2026-02-11 04:39:20,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:20,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:20,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:22,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,3,N/A
+2026-02-11 04:39:22,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:22,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:22,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:23,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,3,N/A
+2026-02-11 04:39:23,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:23,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:23,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:25,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,3,N/A
+2026-02-11 04:39:25,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:25,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:25,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:26,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,3,N/A
+2026-02-11 04:39:26,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:26,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:26,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:28,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,3,N/A
+2026-02-11 04:39:28,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:28,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:28,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:29,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,3,N/A
+2026-02-11 04:39:29,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:29,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:29,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:31,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,3,N/A
+2026-02-11 04:39:31,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:31,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:31,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:32,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,3,N/A
+2026-02-11 04:39:32,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:32,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:32,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:34,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,3,N/A
+2026-02-11 04:39:34,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:34,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:34,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:35,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,3,N/A
+2026-02-11 04:39:35,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:35,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:35,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:37,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,3,N/A
+2026-02-11 04:39:37,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:37,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:37,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:38,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,3,N/A
+2026-02-11 04:39:38,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:38,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:38,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:40,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,3,N/A
+2026-02-11 04:39:40,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:40,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:40,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:41,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,3,N/A
+2026-02-11 04:39:41,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:41,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:41,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:43,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,3,N/A
+2026-02-11 04:39:43,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:43,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:43,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:44,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,3,N/A
+2026-02-11 04:39:44,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:44,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:44,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:46,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,3,N/A
+2026-02-11 04:39:46,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:46,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:46,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:47,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,3,N/A
+2026-02-11 04:39:47,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:47,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:47,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:49,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,3,N/A
+2026-02-11 04:39:49,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:49,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:49,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:50,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,3,N/A
+2026-02-11 04:39:50,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:50,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:50,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:52,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,3,N/A
+2026-02-11 04:39:52,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:52,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:52,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:53,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,3,N/A
+2026-02-11 04:39:53,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:53,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:53,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:55,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,3,N/A
+2026-02-11 04:39:55,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:55,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:55,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:56,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,3,N/A
+2026-02-11 04:39:56,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:56,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.8σ)
+2026-02-11 04:39:56,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:58,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,3,N/A
+2026-02-11 04:39:58,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:58,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:39:58,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:39:59,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,3,N/A
+2026-02-11 04:39:59,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:39:59,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:39:59,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:01,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,3,N/A
+2026-02-11 04:40:01,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:01,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:01,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:02,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,3,N/A
+2026-02-11 04:40:02,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:02,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:02,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:04,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,3,N/A
+2026-02-11 04:40:04,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:04,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:04,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:05,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,3,N/A
+2026-02-11 04:40:05,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:05,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:05,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:07,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,3,N/A
+2026-02-11 04:40:07,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:07,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:07,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:08,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,3,N/A
+2026-02-11 04:40:08,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:08,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:08,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:10,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,3,N/A
+2026-02-11 04:40:10,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:10,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:10,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:11,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,3,N/A
+2026-02-11 04:40:11,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:11,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:11,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:13,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,3,N/A
+2026-02-11 04:40:13,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:13,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:13,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:14,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,3,N/A
+2026-02-11 04:40:14,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:14,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:14,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:16,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,3,N/A
+2026-02-11 04:40:16,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:16,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:16,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:17,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,3,N/A
+2026-02-11 04:40:17,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:17,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:17,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:19,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,3,N/A
+2026-02-11 04:40:19,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:19,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:19,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:20,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,3,N/A
+2026-02-11 04:40:20,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:20,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:20,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:22,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,3,N/A
+2026-02-11 04:40:22,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:22,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:22,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:23,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,3,N/A
+2026-02-11 04:40:23,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:23,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:23,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:25,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,3,N/A
+2026-02-11 04:40:25,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:25,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:25,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:26,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,3,N/A
+2026-02-11 04:40:26,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:26,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:26,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:28,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,3,N/A
+2026-02-11 04:40:28,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:28,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:28,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:29,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,3,N/A
+2026-02-11 04:40:29,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:29,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:29,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:31,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,3,N/A
+2026-02-11 04:40:31,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:31,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:31,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:32,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,3,N/A
+2026-02-11 04:40:32,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:32,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:32,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:34,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,3,N/A
+2026-02-11 04:40:34,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:34,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:34,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:35,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,3,N/A
+2026-02-11 04:40:35,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:35,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:35,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:37,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,3,N/A
+2026-02-11 04:40:37,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:37,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:37,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:38,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,3,N/A
+2026-02-11 04:40:38,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:38,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:38,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:40,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,3,N/A
+2026-02-11 04:40:40,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:40,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:40,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:41,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,3,N/A
+2026-02-11 04:40:41,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:41,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:41,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:43,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,3,N/A
+2026-02-11 04:40:43,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:43,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:43,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:44,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,3,N/A
+2026-02-11 04:40:44,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:44,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:44,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:46,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,3,N/A
+2026-02-11 04:40:46,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:46,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:46,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:47,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,3,N/A
+2026-02-11 04:40:47,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:47,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:47,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:49,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,3,N/A
+2026-02-11 04:40:49,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:49,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:49,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:50,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,3,N/A
+2026-02-11 04:40:50,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:50,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:50,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:52,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,3,N/A
+2026-02-11 04:40:52,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:52,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:52,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:53,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,3,N/A
+2026-02-11 04:40:53,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:53,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:53,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:55,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,3,N/A
+2026-02-11 04:40:55,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:55,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:55,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:56,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,3,N/A
+2026-02-11 04:40:56,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:56,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:56,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:58,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,3,N/A
+2026-02-11 04:40:58,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:58,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:58,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:40:59,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,3,N/A
+2026-02-11 04:40:59,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:40:59,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:40:59,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:01,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,3,N/A
+2026-02-11 04:41:01,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:01,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:01,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:02,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,3,N/A
+2026-02-11 04:41:02,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:02,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:02,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:04,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,3,N/A
+2026-02-11 04:41:04,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:04,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:04,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:05,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,3,N/A
+2026-02-11 04:41:05,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:05,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:05,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:07,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,3,N/A
+2026-02-11 04:41:07,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:07,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:07,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:08,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,3,N/A
+2026-02-11 04:41:08,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:08,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:08,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:10,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,3,N/A
+2026-02-11 04:41:10,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:10,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:10,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:11,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,3,N/A
+2026-02-11 04:41:11,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:11,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:11,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:13,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,3,N/A
+2026-02-11 04:41:13,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:13,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:13,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:14,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,3,N/A
+2026-02-11 04:41:14,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:14,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:14,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:16,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,3,N/A
+2026-02-11 04:41:16,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:16,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:16,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:17,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,3,N/A
+2026-02-11 04:41:17,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:17,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:17,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:19,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,3,N/A
+2026-02-11 04:41:19,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:19,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:19,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:20,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,3,N/A
+2026-02-11 04:41:20,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:20,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:20,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:22,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,3,N/A
+2026-02-11 04:41:22,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:22,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:22,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:23,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,3,N/A
+2026-02-11 04:41:23,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:23,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:23,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:25,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,3,N/A
+2026-02-11 04:41:25,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:25,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:25,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:26,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,3,N/A
+2026-02-11 04:41:26,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:26,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:26,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:28,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,3,N/A
+2026-02-11 04:41:28,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:28,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:28,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:29,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,3,N/A
+2026-02-11 04:41:29,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:29,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:29,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:31,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,3,N/A
+2026-02-11 04:41:31,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:31,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:31,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:32,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,3,N/A
+2026-02-11 04:41:32,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:32,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:32,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:34,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,3,N/A
+2026-02-11 04:41:34,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:34,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:34,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:35,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,3,N/A
+2026-02-11 04:41:35,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:35,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:35,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:37,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,3,N/A
+2026-02-11 04:41:37,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:37,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:37,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:38,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,3,N/A
+2026-02-11 04:41:38,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:38,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:38,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:40,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,3,N/A
+2026-02-11 04:41:40,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:40,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:40,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:41,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,3,N/A
+2026-02-11 04:41:41,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:41,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:41,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:43,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,3,N/A
+2026-02-11 04:41:43,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:43,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:43,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:44,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,3,N/A
+2026-02-11 04:41:44,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:44,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:44,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:46,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,3,N/A
+2026-02-11 04:41:46,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:46,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:46,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:47,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 04:41:47,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:47,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:47,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:49,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 04:41:49,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:49,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:49,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:50,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 04:41:50,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:50,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:50,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:52,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 04:41:52,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:52,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:52,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:54,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,5,RSSI Spike (2.7σ)
+2026-02-11 04:41:54,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:54,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:54,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:55,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 04:41:55,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:55,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:55,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:57,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.7σ)
+2026-02-11 04:41:57,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:57,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:57,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:41:58,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,5,RSSI Spike (2.7σ)
+2026-02-11 04:41:58,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:41:58,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.5σ)
+2026-02-11 04:41:58,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:00,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:00,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:00,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:00,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:01,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:01,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:01,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:01,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:03,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:03,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:03,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:03,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:04,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:04,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:04,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:04,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:06,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:06,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:06,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:06,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:07,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:07,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:07,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:07,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:09,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:09,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:09,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:09,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:10,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:10,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:10,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:10,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:12,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:12,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:12,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:12,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:13,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:13,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:13,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:13,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:15,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:15,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:15,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:15,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:16,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:16,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:16,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:16,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:18,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:18,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:18,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:18,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:19,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:19,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:19,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:19,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:21,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:21,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:21,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:21,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:22,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:22,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:22,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:22,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:24,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:24,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:24,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:24,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:25,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:25,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:25,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:25,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:27,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:27,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:27,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:27,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:28,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:28,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:28,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:28,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:30,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:30,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:30,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:30,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:31,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:31,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:31,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:31,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:33,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:33,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:33,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:33,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:34,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:34,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:34,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:34,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:36,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:36,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:36,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:36,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:37,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:37,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:37,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:37,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:39,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:39,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:39,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:39,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:40,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:40,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:40,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:40,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:42,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:42,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:42,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:42,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:43,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:43,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:43,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:43,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:45,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:45,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:45,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:45,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:46,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:46,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:46,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:46,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:48,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:48,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:48,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:48,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:49,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:49,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:49,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:49,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:51,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:51,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:51,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:51,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:52,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:52,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:52,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:52,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:54,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:54,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:54,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:54,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:55,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:55,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:55,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:55,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:57,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:57,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:57,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:57,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:42:58,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.7σ)
+2026-02-11 04:42:58,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:42:58,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.5σ)
+2026-02-11 04:42:58,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:00,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:00,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:00,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:00,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:01,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:01,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:01,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:01,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:03,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:03,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:03,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:03,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:04,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:04,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:04,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:04,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:06,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:06,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:06,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:06,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:07,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:07,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:07,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:07,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:09,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:09,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:09,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:09,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:10,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:10,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:10,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:10,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:12,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:12,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:12,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:12,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:13,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:13,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:13,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:13,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:15,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:15,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:15,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:15,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:16,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:16,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:16,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:16,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:18,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:18,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:18,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:18,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:19,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:19,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:19,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:19,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:21,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:21,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:21,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:21,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:22,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:22,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:22,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:22,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:24,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:24,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:24,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:24,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:25,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:25,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:25,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:25,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:27,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:27,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:27,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:27,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:28,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:28,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:28,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:28,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:30,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:30,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:30,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:30,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:31,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:31,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:31,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:31,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:33,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:33,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:33,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:33,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:34,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:34,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:34,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:34,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:36,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:36,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:36,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:36,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:37,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:37,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:37,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:37,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:39,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:39,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:39,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:39,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:40,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:40,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:40,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:40,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:42,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:42,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:42,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:42,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:43,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:43,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:43,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:43,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:45,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:45,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:45,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:45,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:46,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:46,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:46,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:46,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:48,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:48,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:48,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:48,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:49,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:49,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:49,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:49,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:51,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:51,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:51,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:51,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:52,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:52,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:52,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:52,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:54,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:54,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:54,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:54,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:55,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:55,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:55,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:55,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:57,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:57,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:57,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:57,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:43:58,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 04:43:58,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:43:58,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:43:58,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:00,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:00,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:00,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:00,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:01,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:01,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:01,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:01,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:03,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:03,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:03,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:03,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:04,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:04,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:04,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:04,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:06,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:06,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:06,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:06,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:07,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:07,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:07,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:07,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:09,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:09,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:09,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:09,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:10,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:10,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:10,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:10,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:12,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:12,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:12,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:12,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:13,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:13,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:13,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:13,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:15,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:15,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:15,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:15,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:16,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:16,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:16,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:16,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:18,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:18,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:18,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:18,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:19,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:19,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:19,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:19,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:21,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:21,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:21,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:21,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:22,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:22,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:22,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:22,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:24,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:24,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:24,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:24,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:25,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:25,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:25,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:25,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:27,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:27,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:27,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:27,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:29,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:29,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:29,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:29,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:30,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:30,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:30,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:30,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:32,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:32,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:32,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:32,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:33,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:33,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:33,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:33,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:35,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:35,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:35,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:35,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:36,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:36,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:36,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:36,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:38,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:38,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:38,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:38,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:39,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:39,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:39,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:39,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:41,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:41,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:41,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:41,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:42,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:42,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:42,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:42,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:44,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:44,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:44,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:44,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:45,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:45,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:45,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:45,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:47,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:47,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:47,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:47,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:48,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:48,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-66,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:48,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:48,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:50,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 04:44:50,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:50,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:50,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:51,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.6σ)
+2026-02-11 04:44:51,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:51,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:51,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:53,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.6σ)
+2026-02-11 04:44:53,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:53,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:53,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:54,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.6σ)
+2026-02-11 04:44:54,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:54,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:54,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:56,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.6σ)
+2026-02-11 04:44:56,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:56,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:56,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:57,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.6σ)
+2026-02-11 04:44:57,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:57,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:57,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:44:59,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.6σ)
+2026-02-11 04:44:59,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,3,RSSI Spike (2.6σ)
+2026-02-11 04:44:59,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:44:59,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:00,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:00,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:00,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:00,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:02,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:02,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:02,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:02,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:03,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:03,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:03,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:03,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:05,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:05,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-72,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:05,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:05,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:06,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:06,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:06,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:06,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:08,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:08,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:08,Starbucks_Guest,12:34:56:78:9A:BC,11,-80,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:08,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:09,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:09,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-71,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:09,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:09,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:11,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:11,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:11,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:11,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:12,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:12,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:12,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:12,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:14,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:14,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:14,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:14,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:15,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:15,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-75,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:15,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:15,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:17,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:17,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:17,Starbucks_Guest,12:34:56:78:9A:BC,11,-81,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:17,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:18,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:18,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:18,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:18,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:20,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:20,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:20,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:20,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:21,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:21,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:21,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:21,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:23,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:23,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:23,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:23,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:24,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:24,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:24,Starbucks_Guest,12:34:56:78:9A:BC,11,-75,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:24,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:26,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:26,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:26,Starbucks_Guest,12:34:56:78:9A:BC,11,-83,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:26,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:27,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:27,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:27,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:27,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:29,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:29,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:29,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:29,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:30,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:30,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:30,Starbucks_Guest,12:34:56:78:9A:BC,11,-76,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:30,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:32,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:32,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:32,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:32,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:33,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:33,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-73,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:33,Starbucks_Guest,12:34:56:78:9A:BC,11,-85,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:33,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:35,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:35,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:35,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:35,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:36,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:36,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-65,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:36,Starbucks_Guest,12:34:56:78:9A:BC,11,-78,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:36,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:38,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:38,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-67,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:38,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:38,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:39,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:39,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-69,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:39,Starbucks_Guest,12:34:56:78:9A:BC,11,-84,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:39,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:41,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:41,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-68,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:41,Starbucks_Guest,12:34:56:78:9A:BC,11,-77,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:41,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:42,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:42,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-74,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:42,Starbucks_Guest,12:34:56:78:9A:BC,11,-82,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:42,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 04:45:44,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.6σ)
+2026-02-11 04:45:44,Free_WiFi_Public,DE:AD:BE:EF:00:01,6,-70,3,RSSI Spike (2.6σ)
+2026-02-11 04:45:44,Starbucks_Guest,12:34:56:78:9A:BC,11,-79,3,RSSI Spike (2.5σ)
+2026-02-11 04:45:44,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
