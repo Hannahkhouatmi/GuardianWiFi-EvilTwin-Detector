@@ -8,10 +8,9 @@ class WiFiSimulator:
         self.running = False
         # Liste de scénarios : (SSID, BSSID, Channel, Base_RSSI)
         self.scenarios = [
-            ("Ma_Box_Maison", "AA:BB:CC:11:22:33", 1, -60),
-            ("Free_WiFi_Public", "DE:AD:BE:EF:00:01", 6, -70), # SSID Suspect
-            ("Starbucks_Guest", "12:34:56:78:9A:BC", 11, -80)
-        ]
+    ("Ma_Box_Maison", "AA:BB:CC:11:22:33", 1, -60), # Ton réseau officiel (ajoute ce BSSID à ta whitelist)
+    ("Ma_B0x_Maison", "FF:EE:DD:44:55:66", 1, -65), # L'imitateur (Le 'o' est devenu un '0')
+]
 
     def start(self, stop_event):
         self.running = True

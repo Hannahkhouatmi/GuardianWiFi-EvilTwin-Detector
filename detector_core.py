@@ -6,6 +6,8 @@ from ap_model import (
     AP_STORE, AP_STORE_LOCK, APInfo, 
     cleanup_stale_aps, get_danger_level_name, update_ap_store
 )
+from ap_model import levenshtein_distance 
+
 import nic_manager, packet_sniffer, simulator, logger # Ajout de simulator et logger
 colorama_init(autoreset=True)
 STOP_EVENT = threading.Event()
@@ -33,32 +35,71 @@ def hopper_worker(interface, channels):
         idx += 1
         time.sleep(2.5)
 
+from ap_model import levenshtein_distance # Assure-toi que cette fonction est bien importée
+
 def run_detection_check():
-    whitelist = load_whitelist()
+    """
+    Analyse globale de tous les points d'accès détectés :
+    1. Vérification Whitelist
+    2. Détection de patterns suspects
+    3. Détection d'imitation de SSID (Levenshtein)
+    4. Détection de doublons SSID (Evil Twin classique)
+    """
+    whitelist_bssids = load_whitelist()
+
     with AP_STORE_LOCK:
+        # --- ÉTAPE 1 : Identifier les SSIDs légitimes ---
+        # On crée une liste des noms de réseaux (SSID) auxquels on fait confiance
+        known_ssids = [
+            ap.ssid for bssid, ap in AP_STORE.items() 
+            if bssid in whitelist_bssids and ap.ssid not in ["Hidden/Unknown", ""]
+        ]
+
         ssid_map = {}
+
         for bssid, ap in AP_STORE.items():
-            if bssid in whitelist:
+            # Cas 1 : Si l'antenne est dans la whitelist, on remet tout à zéro
+            if bssid in whitelist_bssids:
                 ap.danger_score = 0
                 ap.is_evil_twin = False
+                ap.similar_ssid = False
+                ap.duplicate_ssid = False
                 continue
 
+            # Cas 2 : Détection de patterns suspects (ex: "Free_WiFi", "Captive_Portal")
             ap.suspect_ssid = any(p.search(ap.ssid) for p in SUSPECT_SSID_PATTERNS)
-            
+
+            # Cas 3 : Détection d'Imitation (Levenshtein)
+            # On compare le nom actuel avec chaque nom de la Whitelist
+            ap.similar_ssid = False
             if ap.ssid not in ["Hidden/Unknown", ""]:
-                if ap.ssid not in ssid_map: ssid_map[ap.ssid] = []
+                for target_ssid in known_ssids:
+                    # Si les noms sont différents mais très proches (1 ou 2 lettres d'écart)
+                    if ap.ssid != target_ssid:
+                        dist = levenshtein_distance(ap.ssid, target_ssid)
+                        if 1 <= dist <= 2:
+                            ap.similar_ssid = True
+                            break
+
+            # Cas 4 : Préparation de la détection de doublons SSID
+            if ap.ssid not in ["Hidden/Unknown", ""]:
+                if ap.ssid not in ssid_map: 
+                    ssid_map[ap.ssid] = []
                 ssid_map[ap.ssid].append(bssid)
-            
+
+            # ÉTAPE FINALE : Recalculer le score de danger pour cet AP
             ap.calculate_danger_level()
 
+        # --- ÉTAPE 5 : Marquer les doublons SSID exacts ---
         for ssid, bssids in ssid_map.items():
+            # Si un même nom est diffusé par plusieurs adresses MAC (BSSID)
             if len(bssids) > 1:
                 for b in bssids:
-                    AP_STORE[b].duplicate_ssid = True
-                    # On marque comme Evil Twin seulement si ce n'est pas dans la whitelist
-                    if b not in whitelist:
+                    # On ne marque que ceux qui ne sont pas dans la whitelist
+                    if b not in whitelist_bssids:
+                        AP_STORE[b].duplicate_ssid = True
                         AP_STORE[b].is_evil_twin = True
-
+                        
 def display_aps():
     # Nettoyage de l'écran (s'adapte à Windows ou Linux)
     os.system("clear" if os.name == "posix" else "cls")
