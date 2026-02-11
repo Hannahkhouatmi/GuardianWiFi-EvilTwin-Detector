@@ -23,7 +23,22 @@ if OUI_FILE.exists():
         OUI_DB = json.loads(OUI_FILE.read_text(encoding="utf-8"))
     except Exception:
         OUI_DB = {}
-
+        
+def levenshtein_distance(s1, s2):
+    if len(s1) < len(s2):
+        return levenshtein_distance(s2, s1)
+    if len(s2) == 0:
+        return len(s1)
+    previous_row = range(len(s2) + 1)
+    for i, c1 in enumerate(s1):
+        current_row = [i + 1]
+        for j, c2 in enumerate(s2):
+            insertions = previous_row[j + 1] + 1
+            deletions = current_row[j] + 1
+            substitutions = previous_row[j] + (c1 != c2)
+            current_row.append(min(insertions, deletions, substitutions))
+        previous_row = current_row
+    return previous_row[-1]
 @dataclass
 class APInfo:
     ssid: str = "Hidden/Unknown"
@@ -51,6 +66,7 @@ class APInfo:
     duplicate_ssid: bool = False
     timing_anomaly: bool = False
     suspect_vendor: bool = False
+    similar_ssid: bool = False # Nouveau drapeau
 
     def __post_init__(self):
         """Initialisation après création de l'objet."""
@@ -93,26 +109,20 @@ class APInfo:
                 self.anomaly_reason = "Jitter/Timing Anomaly"
 
     def calculate_danger_level(self) -> int:
-        """Calcule le score de danger final sur 10."""
         score = 0
         if self.suspect_ssid: score += 1
         if self.rssi_anomaly: score += 2
         if self.timing_anomaly: score += 2
         if self.duplicate_ssid: score += 3
+        if self.suspect_vendor: score += 2
         
-        # Bonus Malus : Constructeur suspect (Alfa Network, Realtek, etc.)
-        suspect_vendors = ["Alfa Network", "Realtek", "Shenzhen Tenda"]
-        if self.vendor in suspect_vendors:
-            self.suspect_vendor = True
-            score += 2
-        
-        self.danger_score = score
-        # On marque comme Evil Twin si le score est critique
-        if self.danger_score >= 4:
-            self.is_evil_twin = True
+        # AJOUT : Si le SSID ressemble trop à un réseau officiel
+        if self.similar_ssid:
+            score += 3 # Grosse pénalité
+            self.anomaly_reason = "Imitation SSID (Levenshtein)"
             
+        self.danger_score = score
         return score
-
 def get_danger_level_name(score: int) -> str:
     """Traduit le score numérique en texte lisible."""
     if score <= 1: return "Faible"
