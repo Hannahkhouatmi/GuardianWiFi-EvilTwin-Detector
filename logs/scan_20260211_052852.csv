@@ -3677,3 +3677,342 @@ Timestamp,SSID,BSSID,Channel,RSSI,Score,Reason
 2026-02-11 05:59:36,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.7σ)
 2026-02-11 05:59:36,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-63,2,RSSI Spike (2.6σ)
 2026-02-11 05:59:36,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 05:59:37,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 05:59:37,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-62,2,RSSI Spike (2.6σ)
+2026-02-11 05:59:37,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 05:59:39,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 05:59:39,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-60,2,RSSI Spike (2.6σ)
+2026-02-11 05:59:39,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 05:59:41,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 05:59:41,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-62,2,RSSI Spike (2.6σ)
+2026-02-11 05:59:41,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 05:59:42,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 05:59:42,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-61,2,RSSI Spike (2.6σ)
+2026-02-11 05:59:42,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 05:59:44,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.7σ)
+2026-02-11 05:59:44,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-67,2,RSSI Spike (2.6σ)
+2026-02-11 05:59:44,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 05:59:45,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 05:59:45,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-68,2,RSSI Spike (2.6σ)
+2026-02-11 05:59:45,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 05:59:47,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 05:59:47,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-70,2,RSSI Spike (2.6σ)
+2026-02-11 05:59:47,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 05:59:48,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.7σ)
+2026-02-11 05:59:48,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-67,2,RSSI Spike (2.6σ)
+2026-02-11 05:59:48,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 05:59:50,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.7σ)
+2026-02-11 05:59:50,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-64,2,RSSI Spike (2.6σ)
+2026-02-11 05:59:50,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 05:59:51,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 05:59:51,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-70,2,RSSI Spike (2.6σ)
+2026-02-11 05:59:51,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 05:59:53,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 05:59:53,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-70,2,RSSI Spike (2.6σ)
+2026-02-11 05:59:53,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 05:59:54,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 05:59:54,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-62,2,RSSI Spike (2.6σ)
+2026-02-11 05:59:54,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 05:59:56,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 05:59:56,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-66,2,RSSI Spike (2.6σ)
+2026-02-11 05:59:56,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 05:59:57,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 05:59:57,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-69,2,RSSI Spike (2.6σ)
+2026-02-11 05:59:57,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 05:59:59,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 05:59:59,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-61,2,RSSI Spike (2.6σ)
+2026-02-11 05:59:59,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:00,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:00,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-62,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:00,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:02,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:02,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-65,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:02,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:03,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:03,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-66,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:03,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:05,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:05,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-67,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:05,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:06,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:06,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-62,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:06,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:08,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:08,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-68,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:08,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:09,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:09,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-67,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:09,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:11,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:11,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-67,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:11,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:12,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:12,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-67,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:12,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:14,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:14,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-64,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:14,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:15,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:15,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-65,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:15,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:17,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:17,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-70,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:17,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:18,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:18,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-62,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:18,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:20,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:20,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-60,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:20,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:21,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:21,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-70,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:21,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:23,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:23,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-68,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:23,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:24,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:24,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-62,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:24,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:26,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:26,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-64,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:26,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:27,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:27,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-62,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:27,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:29,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:29,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-70,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:29,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:30,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:30,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-67,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:30,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:32,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:32,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-66,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:32,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:33,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:33,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-68,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:33,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:35,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:35,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-64,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:35,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:36,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:36,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-61,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:36,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:38,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:38,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-63,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:38,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:39,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:39,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-60,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:39,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:41,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:41,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-68,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:41,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:42,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:42,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-66,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:42,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:44,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:44,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-66,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:44,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:45,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:45,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-61,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:45,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:47,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:47,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-70,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:47,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:48,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:48,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-68,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:48,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:50,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:50,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-62,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:50,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:51,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:51,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-68,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:51,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:53,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:53,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-70,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:53,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:54,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:54,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-70,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:54,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:56,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:56,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-68,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:56,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:57,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:57,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-60,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:57,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:00:59,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 06:00:59,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-60,2,RSSI Spike (2.6σ)
+2026-02-11 06:00:59,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:00,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:00,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-67,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:00,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:02,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:02,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-61,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:02,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:03,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:03,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-64,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:03,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:05,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:05,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-67,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:05,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:06,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:06,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-67,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:06,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:08,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:08,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-63,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:08,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:09,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:09,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-65,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:09,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:11,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:11,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-62,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:11,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:12,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:12,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-61,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:12,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:14,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:14,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-61,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:14,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:15,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:15,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-67,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:15,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:17,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:17,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-70,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:17,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:18,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:18,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-69,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:18,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:20,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:20,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-64,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:20,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:21,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:21,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-70,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:21,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:23,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:23,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-68,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:23,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:24,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:24,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-69,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:24,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:26,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:26,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-66,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:26,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:27,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:27,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-60,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:27,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:29,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:29,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-62,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:29,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:30,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:30,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-68,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:30,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:32,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:32,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-65,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:32,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:33,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:33,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-63,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:33,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:35,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:35,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-69,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:35,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:36,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:36,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-69,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:36,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:38,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:38,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-65,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:38,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:39,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:39,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-60,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:39,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:41,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:41,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-65,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:41,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:42,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:42,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-65,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:42,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:44,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:44,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-69,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:44,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:45,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:45,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-69,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:45,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:47,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-63,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:47,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-61,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:47,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:48,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:48,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-68,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:48,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:50,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:50,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-70,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:50,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:51,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:51,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-60,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:51,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:53,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:53,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-60,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:53,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:54,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:54,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-61,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:54,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:56,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:56,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-62,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:56,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:57,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:57,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-70,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:57,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:01:59,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 06:01:59,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-63,2,RSSI Spike (2.6σ)
+2026-02-11 06:01:59,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:02:00,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 06:02:00,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-67,2,RSSI Spike (2.6σ)
+2026-02-11 06:02:00,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:02:02,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 06:02:02,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-62,2,RSSI Spike (2.6σ)
+2026-02-11 06:02:02,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:02:03,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 06:02:03,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-60,2,RSSI Spike (2.6σ)
+2026-02-11 06:02:03,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:02:05,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-56,5,RSSI Spike (2.7σ)
+2026-02-11 06:02:05,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-68,2,RSSI Spike (2.6σ)
+2026-02-11 06:02:05,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:02:06,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.7σ)
+2026-02-11 06:02:06,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-65,2,RSSI Spike (2.6σ)
+2026-02-11 06:02:06,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:02:08,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-60,5,RSSI Spike (2.7σ)
+2026-02-11 06:02:08,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-62,2,RSSI Spike (2.6σ)
+2026-02-11 06:02:08,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:02:09,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 06:02:09,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-63,2,RSSI Spike (2.6σ)
+2026-02-11 06:02:09,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:02:11,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-59,5,RSSI Spike (2.7σ)
+2026-02-11 06:02:11,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-62,2,RSSI Spike (2.6σ)
+2026-02-11 06:02:11,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:02:12,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-55,5,RSSI Spike (2.7σ)
+2026-02-11 06:02:12,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-68,2,RSSI Spike (2.6σ)
+2026-02-11 06:02:12,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:02:14,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-64,5,RSSI Spike (2.7σ)
+2026-02-11 06:02:14,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-67,2,RSSI Spike (2.6σ)
+2026-02-11 06:02:14,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:02:15,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-58,5,RSSI Spike (2.7σ)
+2026-02-11 06:02:15,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-62,2,RSSI Spike (2.6σ)
+2026-02-11 06:02:15,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:02:17,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 06:02:17,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-66,2,RSSI Spike (2.6σ)
+2026-02-11 06:02:17,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:02:18,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 06:02:18,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-68,2,RSSI Spike (2.6σ)
+2026-02-11 06:02:18,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:02:20,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-62,5,RSSI Spike (2.7σ)
+2026-02-11 06:02:20,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-68,2,RSSI Spike (2.6σ)
+2026-02-11 06:02:20,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:02:21,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-65,5,RSSI Spike (2.7σ)
+2026-02-11 06:02:21,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-62,2,RSSI Spike (2.6σ)
+2026-02-11 06:02:21,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:02:23,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 06:02:23,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-61,2,RSSI Spike (2.6σ)
+2026-02-11 06:02:23,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:02:24,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-61,5,RSSI Spike (2.7σ)
+2026-02-11 06:02:24,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-68,2,RSSI Spike (2.6σ)
+2026-02-11 06:02:24,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly
+2026-02-11 06:02:26,Ma_Box_Maison,AA:BB:CC:11:22:33,1,-57,5,RSSI Spike (2.7σ)
+2026-02-11 06:02:26,Ma_B0x_Maison,FF:EE:DD:44:55:66,1,-69,2,RSSI Spike (2.6σ)
+2026-02-11 06:02:26,Ma_Box_Maison,FF:FF:FF:EE:EE:EE,1,-30,5,Jitter/Timing Anomaly

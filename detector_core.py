@@ -19,7 +19,7 @@ from ap_model import (
 import nic_manager
 import packet_sniffer
 import simulator
-import logger
+import logger, GUI
 
 # Initialisation
 colorama_init(autoreset=True)
@@ -128,79 +128,92 @@ def run_detection_check():
                         AP_STORE[b].is_evil_twin = True
 
 def display_aps():
-    """Affiche le tableau de bord dans le terminal."""
     os.system("clear" if os.name == "posix" else "cls")
-    width = 120
+    width = 125
+    
+    # Header principal
     print(f"{Fore.CYAN}{'='*width}")
     print(f"| GuardianWiFi Pro | SCANNING... | {datetime.now().strftime('%H:%M:%S')} | CTRL+C POUR QUITTER |")
     print(f"{Fore.CYAN}{'='*width}")
     
-    header = f"| {'SSID':<20} | {'BSSID':<17} | {'VENDOR':<15} | {'CH':<3} | {'RSSI':<4} | {'SCORE':<5} | {'NIVEAU':<8} |"
+    # En-tête du tableau
+    header = f"| {'SSID':<20} | {'BSSID':<17} | {'VENDOR':<15} | {'CH':<3} | {'RSSI':<4} | {'SCORE':<5} | {'REASON':<20} |"
     print(header)
     print("-" * width)
 
+    # Affichage des lignes du tableau
     with AP_STORE_LOCK:
+        # On trie par RSSI pour voir les plus proches
         aps = sorted(AP_STORE.values(), key=lambda x: x.rssi, reverse=True)
         for ap in aps:
             color = Fore.GREEN
-            if ap.danger_score >= 4: color = Fore.RED + Style.BRIGHT
-            elif ap.danger_score >= 2: color = Fore.YELLOW
+            if ap.danger_score >= 4: 
+                color = Fore.RED + Style.BRIGHT
+            elif ap.danger_score >= 2: 
+                color = Fore.YELLOW
             
-            lvl = get_danger_level_name(ap.danger_score)
             s_name = ap.ssid[:20]
             v_name = ap.vendor[:15]
+            reason = str(ap.anomaly_reason or "Normal")[:20]
             
-            line = f"| {s_name:<20} | {ap.bssid:<17} | {v_name:<15} | {ap.channel:<3} | {ap.rssi:<4} | {ap.danger_score:<5} | {lvl:<8} |"
+            line = f"| {s_name:<20} | {ap.bssid:<17} | {v_name:<15} | {ap.channel:<3} | {ap.rssi:<4} | {ap.danger_score:<5} | {reason:<20} |"
             print(f"{color}{line}")
 
     print(f"{Fore.CYAN}{'='*width}")
-    # Alertes spécifiques en bas
+
+    alerts_found = []
     with AP_STORE_LOCK:
         for ap in aps:
-            if ap.duplicate_ssid:
-                print(f"{Fore.RED}{Style.BRIGHT}ALERTE DOUBLON : SSID [{ap.ssid}] détecté sur plusieurs antennes !")
-                break
+            if ap.danger_score >= 4:
+                # On prépare le message d'alerte
+                msg = f"!!! ATTENTION : {ap.ssid} ({ap.bssid}) -> {ap.anomaly_reason} !!!"
+                alerts_found.append(msg)
+
+    if alerts_found:
+        print(f"\n{Fore.RED}{Style.BRIGHT}{'#'*width}")
+        print(f"{Fore.RED}{Style.BRIGHT}  ZONES DE DANGER DÉTECTÉES :")
+        for a in alerts_found:
+            print(f"{Fore.RED}{Style.BRIGHT}  [!] {a}")
+        print(f"{Fore.RED}{Style.BRIGHT}{'#'*width}")
+    else:
+        print(f"\n{Fore.GREEN}[OK] Aucun danger critique détecté dans la zone.")
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-i", "--interface", default="wlan0mon")
-    parser.add_argument("-c", "--channels", default="1-13")
-    parser.add_argument("--simulate", action="store_true", help="Mode Simulation sans carte Wi-Fi")
+    parser.add_argument("--simulate", action="store_true")
+    parser.add_argument("--cli", action="store_true", help="Lancer en mode Terminal au lieu de GUI")
     args = parser.parse_args()
 
+    # On lance les moteurs de détection (Threads)
     if args.simulate:
-        print(f"{Fore.YELLOW}[SIMULATION] Démarrage des threads de simulation...")
         threading.Thread(target=simulator.start_simulation, args=(STOP_EVENT,), daemon=True).start()
     else:
-        if "-" in args.channels:
-            low, high = map(int, args.channels.split("-"))
-            chans = list(range(low, high + 1))
-        else:
-            chans = [int(c) for c in args.channels.split(",")]
-
-        nic_manager.INTERFACE_NAME = args.interface
         nic_manager.check_root()
-        nic_manager.set_mode("monitor")
+        threading.Thread(target=packet_sniffer.start_sniffing, args=("wlan0mon", STOP_EVENT), daemon=True).start()
 
-        threading.Thread(target=hopper_worker, args=(args.interface, chans), daemon=True).start()
-        threading.Thread(target=packet_sniffer.start_sniffing, args=(args.interface, STOP_EVENT), daemon=True).start()
-
-    try:
-        while True:
+    # Boucle de détection (Thread de calcul)
+    def detection_loop():
+        while not STOP_EVENT.is_set():
             run_detection_check()
-            display_aps()
-            
-            # Enregistrement CSV
-            with AP_STORE_LOCK:
-                logger.logger_instance.log_aps(AP_STORE)
-                
+            logger.logger_instance.log_aps(AP_STORE)
             cleanup_stale_aps(60)
             time.sleep(1.5)
-    except KeyboardInterrupt:
-        print("\n[!] Arrêt demandé par l'utilisateur...")
-        STOP_EVENT.set()
-        if not args.simulate:
-            nic_manager.cleanup()
+
+    threading.Thread(target=detection_loop, daemon=True).start()
+
+    # CHOIX DU MODE D'AFFICHAGE
+    if args.cli:
+        # Mode Terminal (ton ancien affichage)
+        try:
+            while True:
+                display_aps()
+                time.sleep(1.5)
+        except KeyboardInterrupt:
+            STOP_EVENT.set()
+    else:
+        # MODE GUI (Le nouveau Dashboard)
+        print("[INFO] Lancement de l'interface graphique...")
+        GUI.start_gui(simulate=args.simulate)
 
 if __name__ == "__main__":
     main()

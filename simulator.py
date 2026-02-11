@@ -1,37 +1,19 @@
-import time
-import random
-import threading
-from ap_model import update_ap_store
-
-class WiFiSimulator:
-    def __init__(self):
-        self.running = False
-        # Liste de scénarios : (SSID, BSSID, Channel, Base_RSSI)
-        self.scenarios = [
-    ("Ma_Box_Maison", "AA:BB:CC:11:22:33", 1, -60), # Ton réseau officiel (ajoute ce BSSID à ta whitelist)
-    ("Ma_B0x_Maison", "FF:EE:DD:44:55:66", 1, -65), # L'imitateur (Le 'o' est devenu un '0')
-]
-
-    def start(self, stop_event):
-        self.running = True
-        print("[SIMULATEUR] Lancement du mode simulation...")
-        
-        while not stop_event.is_set():
-            for ssid, bssid, chan, base_rssi in self.scenarios:
-                # On ajoute un petit changement aléatoire au signal (RSSI)
-                fake_rssi = base_rssi + random.randint(-5, 5)
-                fake_time = time.time()
-                
-                # Envoyer la donnée au modèle
-                update_ap_store(bssid, ssid, chan, fake_rssi, fake_time)
-                
-            # Simulation d'une attaque Evil Twin après 10 secondes
-            if int(time.time()) % 20 > 10:
-                # On crée un faux jumeau pour "Ma_Box_Maison"
-                update_ap_store("FF:FF:FF:EE:EE:EE", "Ma_Box_Maison", 1, -30, time.time())
-
-            time.sleep(1.0) # On simule des beacons toutes les secondes
+import time, random
+from ap_model import update_ap_store, AP_STORE, AP_STORE_LOCK
 
 def start_simulation(stop_event):
-    sim = WiFiSimulator()
-    sim.start(stop_event)
+    scenarios = [
+        ("Ma_Box_Orange", "E8:ED:F3:11:22:33", 1, -60),
+        ("Hacker_Alfa", "00:C0:CA:88:99:AA", 6, -50),
+        ("Ma_B0x_Orange", "FF:EE:DD:44:55:66", 1, -65)
+    ]
+    while not stop_event.is_set():
+        for ssid, bssid, chan, rssi in scenarios:
+            update_ap_store(bssid, ssid, chan, rssi + random.randint(-2, 2), time.time())
+        
+        # Simulation Attaque Sequence Jump + Deauth
+        if int(time.time()) % 15 > 10:
+            update_ap_store("E8:ED:F3:11:22:33", "Ma_Box_Orange", 1, -40, time.time(), random.randint(2000, 3000))
+            with AP_STORE_LOCK:
+                if "00:C0:CA:88:99:AA" in AP_STORE: AP_STORE["00:C0:CA:88:99:AA"].deauth_count += 5
+        time.sleep(1.5)

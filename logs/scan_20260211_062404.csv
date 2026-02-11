@@ -1,0 +1,4 @@
+Time,SSID,BSSID,Vendor,RSSI,Score,Reason
+06:24:04,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-62,1,
+06:24:04,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-48,1,
+06:24:04,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-64,1,
