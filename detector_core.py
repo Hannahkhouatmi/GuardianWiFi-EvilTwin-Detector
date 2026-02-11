@@ -1,170 +1,173 @@
-import argparse, json, os, re, shutil, sys, time, threading
+import argparse
+import json
+import os
+import re
+import sys
+import time
+import threading
 from pathlib import Path
 from datetime import datetime
 from colorama import init as colorama_init, Fore, Style
+from plyer import notification
+
+# Imports de nos modules locaux
 from ap_model import (
     AP_STORE, AP_STORE_LOCK, APInfo, 
-    cleanup_stale_aps, get_danger_level_name, update_ap_store
+    cleanup_stale_aps, get_danger_level_name, update_ap_store,
+    levenshtein_distance
 )
-from ap_model import levenshtein_distance 
+import nic_manager
+import packet_sniffer
+import simulator
+import logger
 
-import nic_manager, packet_sniffer, simulator, logger # Ajout de simulator et logger
+# Initialisation
 colorama_init(autoreset=True)
 STOP_EVENT = threading.Event()
+LAST_NOTIFIED = {} # Pour éviter de spammer les notifications
 _SCRIPT_DIR = Path(__file__).resolve().parent
 WHITELIST_PATH = _SCRIPT_DIR / "known_networks.json"
 
+# Patterns de noms de réseaux souvent utilisés par les pirates
 SUSPECT_SSID_PATTERNS = [
     re.compile(r"free|gratuit|public|guest|orange|sfr|bouygues|starbucks|mcdonald|hotel|airport", re.I),
-    re.compile(r"captive|portal|login|signin|linksys|default|netgear|wifi", re.I)
+    re.compile(r"captive|portal|login|signin|linksys|default|netgear|wifi", re.I),
+    re.compile(r"pineapple|pwned|hack", re.I)
 ]
 
 def load_whitelist():
+    """Charge les BSSIDs de confiance depuis le fichier JSON."""
     if not WHITELIST_PATH.exists():
         WHITELIST_PATH.write_text(json.dumps({"bssids": []}), encoding="utf-8")
         return set()
     try:
         data = json.loads(WHITELIST_PATH.read_text(encoding="utf-8"))
         return {str(b).strip().upper() for b in data.get("bssids", [])}
-    except: return set()
+    except:
+        return set()
+
+def send_alert_notification(ap):
+    """Envoie une notification système en cas de danger critique."""
+    now = time.time()
+    # On limite à une notification toutes les 5 minutes par antenne
+    if ap.bssid not in LAST_NOTIFIED or (now - LAST_NOTIFIED[ap.bssid]) > 300:
+        try:
+            notification.notify(
+                title=f"⚠️ GUARDIANWIFI : MENACE {ap.danger_score}/10",
+                message=f"Réseau suspect : {ap.ssid}\nBSSID : {ap.bssid}\nType : {ap.anomaly_reason or 'Evil Twin probable'}",
+                app_name="GuardianWiFi",
+                timeout=10
+            )
+            LAST_NOTIFIED[ap.bssid] = now
+        except:
+            pass
 
 def hopper_worker(interface, channels):
+    """Change de canal Wi-Fi régulièrement (Channel Hopping)."""
     idx = 0
     while not STOP_EVENT.is_set():
         nic_manager.set_channel(channels[idx % len(channels)])
         idx += 1
         time.sleep(2.5)
 
-from ap_model import levenshtein_distance # Assure-toi que cette fonction est bien importée
-
 def run_detection_check():
-    """
-    Analyse globale de tous les points d'accès détectés :
-    1. Vérification Whitelist
-    2. Détection de patterns suspects
-    3. Détection d'imitation de SSID (Levenshtein)
-    4. Détection de doublons SSID (Evil Twin classique)
-    """
+    """Analyse tous les APs pour détecter les anomalies et calculer les scores."""
     whitelist_bssids = load_whitelist()
 
     with AP_STORE_LOCK:
-        # --- ÉTAPE 1 : Identifier les SSIDs légitimes ---
-        # On crée une liste des noms de réseaux (SSID) auxquels on fait confiance
+        # On récupère les noms des réseaux de confiance pour la détection Levenshtein
         known_ssids = [
-            ap.ssid for bssid, ap in AP_STORE.items() 
-            if bssid in whitelist_bssids and ap.ssid not in ["Hidden/Unknown", ""]
+            ap.ssid for b, ap in AP_STORE.items() 
+            if b in whitelist_bssids and ap.ssid not in ["Hidden/Unknown", ""]
         ]
-
-        ssid_map = {}
+        
+        ssid_map = {} # Pour détecter les doublons exacts
 
         for bssid, ap in AP_STORE.items():
-            # Cas 1 : Si l'antenne est dans la whitelist, on remet tout à zéro
+            # 1. Reset si Whitelist
             if bssid in whitelist_bssids:
                 ap.danger_score = 0
                 ap.is_evil_twin = False
-                ap.similar_ssid = False
-                ap.duplicate_ssid = False
                 continue
 
-            # Cas 2 : Détection de patterns suspects (ex: "Free_WiFi", "Captive_Portal")
+            # 2. Détection Pattern Suspect
             ap.suspect_ssid = any(p.search(ap.ssid) for p in SUSPECT_SSID_PATTERNS)
-
-            # Cas 3 : Détection d'Imitation (Levenshtein)
-            # On compare le nom actuel avec chaque nom de la Whitelist
+            
+            # 3. Détection Imitation (Levenshtein)
             ap.similar_ssid = False
             if ap.ssid not in ["Hidden/Unknown", ""]:
                 for target_ssid in known_ssids:
-                    # Si les noms sont différents mais très proches (1 ou 2 lettres d'écart)
                     if ap.ssid != target_ssid:
                         dist = levenshtein_distance(ap.ssid, target_ssid)
                         if 1 <= dist <= 2:
                             ap.similar_ssid = True
                             break
 
-            # Cas 4 : Préparation de la détection de doublons SSID
+            # 4. Préparation Doublons
             if ap.ssid not in ["Hidden/Unknown", ""]:
-                if ap.ssid not in ssid_map: 
-                    ssid_map[ap.ssid] = []
+                if ap.ssid not in ssid_map: ssid_map[ap.ssid] = []
                 ssid_map[ap.ssid].append(bssid)
-
-            # ÉTAPE FINALE : Recalculer le score de danger pour cet AP
+            
+            # 5. Calcul Final du Score
             ap.calculate_danger_level()
 
-        # --- ÉTAPE 5 : Marquer les doublons SSID exacts ---
+            # 6. Notification si score critique
+            if ap.danger_score >= 4:
+                send_alert_notification(ap)
+
+        # 7. Marquage des doublons SSID
         for ssid, bssids in ssid_map.items():
-            # Si un même nom est diffusé par plusieurs adresses MAC (BSSID)
             if len(bssids) > 1:
                 for b in bssids:
-                    # On ne marque que ceux qui ne sont pas dans la whitelist
                     if b not in whitelist_bssids:
                         AP_STORE[b].duplicate_ssid = True
                         AP_STORE[b].is_evil_twin = True
-                        
-def display_aps():
-    # Nettoyage de l'écran (s'adapte à Windows ou Linux)
-    os.system("clear" if os.name == "posix" else "cls")
 
-    # Largeur totale du tableau
+def display_aps():
+    """Affiche le tableau de bord dans le terminal."""
+    os.system("clear" if os.name == "posix" else "cls")
     width = 120
-    
     print(f"{Fore.CYAN}{'='*width}")
     print(f"| GuardianWiFi Pro | SCANNING... | {datetime.now().strftime('%H:%M:%S')} | CTRL+C POUR QUITTER |")
     print(f"{Fore.CYAN}{'='*width}")
-
-    # En-tête des colonnes
+    
     header = f"| {'SSID':<20} | {'BSSID':<17} | {'VENDOR':<15} | {'CH':<3} | {'RSSI':<4} | {'SCORE':<5} | {'NIVEAU':<8} |"
     print(header)
     print("-" * width)
 
     with AP_STORE_LOCK:
-        # On trie les réseaux par puissance de signal (RSSI) pour voir les plus proches en haut
         aps = sorted(AP_STORE.values(), key=lambda x: x.rssi, reverse=True)
-        
         for ap in aps:
-            # Choix de la couleur selon le score de danger
             color = Fore.GREEN
-            if ap.danger_score >= 4:
-                color = Fore.RED + Style.BRIGHT
-            elif ap.danger_score >= 2:
-                color = Fore.YELLOW
+            if ap.danger_score >= 4: color = Fore.RED + Style.BRIGHT
+            elif ap.danger_score >= 2: color = Fore.YELLOW
             
-            # Traduction du score en texte (Faible, Modéré, Critique)
             lvl = get_danger_level_name(ap.danger_score)
+            s_name = ap.ssid[:20]
+            v_name = ap.vendor[:15]
             
-            # On tronque le SSID et le Vendor s'ils sont trop longs pour l'affichage
-            s_name = (ap.ssid[:20] if ap.ssid else "Hidden/Unknown")
-            v_name = (ap.vendor[:15] if ap.vendor else "Unknown")
-            
-            # Création de la ligne formatée
             line = f"| {s_name:<20} | {ap.bssid:<17} | {v_name:<15} | {ap.channel:<3} | {ap.rssi:<4} | {ap.danger_score:<5} | {lvl:<8} |"
             print(f"{color}{line}")
 
-    # Pied de tableau
     print(f"{Fore.CYAN}{'='*width}")
-
-    # Zone d'alertes textuelles (s'affiche uniquement si un danger est détecté)
+    # Alertes spécifiques en bas
     with AP_STORE_LOCK:
-        checked_ssids = set()
         for ap in aps:
-            if ap.duplicate_ssid and ap.ssid not in checked_ssids:
-                if ap.ssid not in ["Hidden/Unknown", ""]:
-                    print(f"{Fore.RED}{Style.BRIGHT}!! ALERTE CRITIQUE : Le SSID [{ap.ssid}] est diffusé par plusieurs antennes.")
-                    print(f"{Fore.RED}   -> Cela indique une attaque Evil Twin en cours !")
-                    checked_ssids.add(ap.ssid)
+            if ap.duplicate_ssid:
+                print(f"{Fore.RED}{Style.BRIGHT}ALERTE DOUBLON : SSID [{ap.ssid}] détecté sur plusieurs antennes !")
+                break
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-i", "--interface", default="wlan0mon")
     parser.add_argument("-c", "--channels", default="1-13")
-    parser.add_argument("--simulate", action="store_true", help="Lancer en mode simulation (sans carte Wi-Fi)")
+    parser.add_argument("--simulate", action="store_true", help="Mode Simulation sans carte Wi-Fi")
     args = parser.parse_args()
 
     if args.simulate:
-        print(f"{Fore.YELLOW}[MODE SIMULATION] Démarrage sans matériel...")
-        # Lance le simulateur au lieu du vrai sniffer
+        print(f"{Fore.YELLOW}[SIMULATION] Démarrage des threads de simulation...")
         threading.Thread(target=simulator.start_simulation, args=(STOP_EVENT,), daemon=True).start()
     else:
-        # Mode réel : nécessite root et interface moniteur
         if "-" in args.channels:
             low, high = map(int, args.channels.split("-"))
             chans = list(range(low, high + 1))
@@ -182,16 +185,15 @@ def main():
         while True:
             run_detection_check()
             display_aps()
+            
+            # Enregistrement CSV
             with AP_STORE_LOCK:
-                logger.logger_instance.log_aps(AP_STORE) # <--- AJOUT
+                logger.logger_instance.log_aps(AP_STORE)
                 
             cleanup_stale_aps(60)
             time.sleep(1.5)
     except KeyboardInterrupt:
-            cleanup_stale_aps(60)
-            time.sleep(1.5)
-    except KeyboardInterrupt:
-        print("\nArrêt en cours...")
+        print("\n[!] Arrêt demandé par l'utilisateur...")
         STOP_EVENT.set()
         if not args.simulate:
             nic_manager.cleanup()
