@@ -36,11 +36,24 @@ def auto_setup_monitor():
     time.sleep(1)
 
 def cleanup():
-    """Remet la carte en mode normal à la fin."""
+    """Remet la carte en mode normal et relance les services réseau."""
     print(f"\n[*] Restauration de {INTERFACE_NAME} en mode Managed...")
-    run_cmd(["ip", "link", "set", INTERFACE_NAME, "down"])
-    run_cmd(["iw", "dev", INTERFACE_NAME, "set", "type", "managed"])
-    run_cmd(["ip", "link", "set", INTERFACE_NAME, "up"])
-    print("[*] Relance de NetworkManager...")
-    run_cmd(["systemctl", "restart", "NetworkManager"])
-    print("[OK] Système restauré.")
+    
+    try:
+        # Désactiver l'interface pour changer le mode
+        run_cmd(["ip", "link", "set", INTERFACE_NAME, "down"])
+        
+        # Repasser en mode managed (normal)
+        run_cmd(["iw", "dev", INTERFACE_NAME, "set", "type", "managed"])
+        
+        # Réactiver l'interface
+        run_cmd(["ip", "link", "set", INTERFACE_NAME, "up"])
+        
+        # Relancer NetworkManager pour retrouver internet
+        print("[*] Relance de NetworkManager...")
+        run_cmd(["systemctl", "restart", "NetworkManager"])
+        
+        print("[OK] Système restauré avec succès.")
+    except Exception as e:
+        print(f"[!] Erreur pendant la restauration : {e}")
+        print("[*] Astuce : Tapez 'sudo systemctl restart NetworkManager' manuellement.")

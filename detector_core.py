@@ -183,48 +183,52 @@ def main():
     parser.add_argument("--simulate", action="store_true")
     parser.add_argument("--cli", action="store_true", help="Lancer en mode Terminal au lieu de GUI")
     args = parser.parse_args()
-    
-    if not args.simulate:
-        # ACTIVE LE MODE MONITEUR AUTOMATIQUEMENT
-        nic_manager.auto_setup_monitor()
-        
-        # Le nom de l'interface est maintenant géré par nic_manager
-        iface = nic_manager.INTERFACE_NAME
-        threading.Thread(target=packet_sniffer.start_sniffing, args=(iface, STOP_EVENT), daemon=True).start()
-    else:
-        threading.Thread(target=simulator.start_simulation, args=(STOP_EVENT,), daemon=True).start()
 
-    
-    # On lance les moteurs de détection (Threads)
-    if args.simulate:
-        threading.Thread(target=simulator.start_simulation, args=(STOP_EVENT,), daemon=True).start()
-    else:
-        nic_manager.check_root()
-        threading.Thread(target=packet_sniffer.start_sniffing, args=("wlan0mon", STOP_EVENT), daemon=True).start()
+    try:
+        # --- 1. INITIALISATION DU MATÉRIEL ---
+        if not args.simulate:
+            nic_manager.check_root() # Vérifie si on est root
+            nic_manager.auto_setup_monitor() # Active le mode moniteur auto
+            iface = nic_manager.INTERFACE_NAME
+            print(f"[*] Sniffing actif sur l'interface : {iface}")
+            threading.Thread(target=packet_sniffer.start_sniffing, args=(iface, STOP_EVENT), daemon=True).start()
+        else:
+            print("[*] Mode SIMULATION activé.")
+            threading.Thread(target=simulator.start_simulation, args=(STOP_EVENT,), daemon=True).start()
 
-    # Boucle de détection (Thread de calcul)
-    def detection_loop():
-        while not STOP_EVENT.is_set():
-            run_detection_check()
-            logger.logger_instance.log_aps(AP_STORE)
-            cleanup_stale_aps(60)
-            time.sleep(1.5)
+        # --- 2. LANCEMENT DU MOTEUR DE DÉTECTION (Thread de calcul) ---
+        def detection_loop():
+            while not STOP_EVENT.is_set():
+                run_detection_check()
+                logger.logger_instance.log_aps(AP_STORE)
+                cleanup_stale_aps(60)
+                time.sleep(1.5)
 
-    threading.Thread(target=detection_loop, daemon=True).start()
+        threading.Thread(target=detection_loop, daemon=True).start()
 
-    # CHOIX DU MODE D'AFFICHAGE
-    if args.cli:
-        # Mode Terminal (ton ancien affichage)
-        try:
+        # --- 3. CHOIX DU MODE D'AFFICHAGE (UI) ---
+        if args.cli:
+            print("[INFO] Lancement du mode Terminal (Appuyez sur CTRL+C pour quitter)")
             while True:
                 display_aps()
                 time.sleep(1.5)
-        except KeyboardInterrupt:
-            STOP_EVENT.set()
-    else:
-        # MODE GUI (Le nouveau Dashboard)
-        print("[INFO] Lancement de l'interface graphique...")
-        GUI.start_gui(simulate=args.simulate)
+        else:
+            print("[INFO] Lancement de l'interface graphique...")
+            GUI.start_gui(simulate=args.simulate)
+
+    except KeyboardInterrupt:
+        print("\n[!] Arrêt manuel détecté.")
+    
+    except Exception as e:
+        print(f"\n[!] Erreur imprévue : {e}")
+
+    finally:
+        # --- 4. NETTOYAGE AUTOMATIQUE ---
+        STOP_EVENT.set()
+        if not args.simulate:
+            nic_manager.cleanup()
+        print("[OK] Fin du programme.")
+        sys.exit(0)
 
 if __name__ == "__main__":
     main()
