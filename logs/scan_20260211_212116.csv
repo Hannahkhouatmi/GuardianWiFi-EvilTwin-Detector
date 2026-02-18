@@ -1,0 +1,79 @@
+Time,SSID,BSSID,Vendor,RSSI,Score,Reason
+21:21:16,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-60,1,
+21:21:16,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-48,1,
+21:21:16,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-66,1,
+21:21:17,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-58,1,
+21:21:17,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-50,1,
+21:21:17,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-63,1,
+21:21:19,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-59,1,
+21:21:19,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-51,1,
+21:21:19,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-66,1,
+21:21:20,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-59,1,
+21:21:20,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-49,1,
+21:21:20,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-66,1,
+21:21:22,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-59,1,
+21:21:22,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-48,1,
+21:21:22,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-63,1,
+21:21:23,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-60,1,
+21:21:23,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-52,1,
+21:21:23,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-64,1,
+21:21:25,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-58,1,
+21:21:25,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-51,1,
+21:21:25,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-64,1,
+21:21:26,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-40,3,RSSI Spike
+21:21:26,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-49,1,
+21:21:26,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-63,1,
+21:21:28,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-40,3,RSSI Spike
+21:21:28,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-52,1,
+21:21:28,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-65,1,
+21:21:30,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-40,3,RSSI Spike
+21:21:30,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-52,5,Deauth Attack
+21:21:30,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-64,1,
+21:21:31,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-62,3,RSSI Spike
+21:21:31,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-48,5,Deauth Attack
+21:21:31,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-66,1,
+21:21:33,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-60,3,RSSI Spike
+21:21:33,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-51,5,Deauth Attack
+21:21:33,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-66,1,
+21:21:34,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-61,3,RSSI Spike
+21:21:34,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-52,5,Deauth Attack
+21:21:34,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-67,1,
+21:21:36,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-62,3,RSSI Spike
+21:21:36,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-52,5,Deauth Attack
+21:21:36,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-64,1,
+21:21:37,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-62,3,RSSI Spike
+21:21:37,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-51,5,Deauth Attack
+21:21:37,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-66,1,
+21:21:39,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-60,3,RSSI Spike
+21:21:39,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-50,5,Deauth Attack
+21:21:39,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-67,1,
+21:21:40,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-62,3,RSSI Spike
+21:21:40,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-51,5,Deauth Attack
+21:21:40,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-65,1,
+21:21:42,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-40,3,RSSI Spike
+21:21:42,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-51,5,Deauth Attack
+21:21:42,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-66,1,
+21:21:43,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-40,3,RSSI Spike
+21:21:43,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-50,5,Deauth Attack
+21:21:43,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-65,1,
+21:21:45,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-40,3,RSSI Spike
+21:21:45,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-52,5,Deauth Attack
+21:21:45,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-66,1,
+21:21:46,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-58,3,RSSI Spike
+21:21:46,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-50,5,Deauth Attack
+21:21:46,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-63,1,
+21:21:48,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-61,3,RSSI Spike
+21:21:48,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-52,5,Deauth Attack
+21:21:48,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-67,1,
+21:21:49,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-58,3,RSSI Spike
+21:21:49,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-49,5,Deauth Attack
+21:21:49,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-67,1,
+21:21:51,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-62,3,RSSI Spike
+21:21:51,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-50,5,Deauth Attack
+21:21:51,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-66,1,
+21:21:52,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-58,3,RSSI Spike
+21:21:52,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-48,5,Deauth Attack
+21:21:52,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-67,1,
+21:21:54,Ma_Box_Orange,E8:ED:F3:11:22:33,Sagemcom (Orange),-62,3,RSSI Spike
+21:21:54,Hacker_Alfa,00:C0:CA:88:99:AA,Alfa Network,-49,5,Deauth Attack
+21:21:54,Ma_B0x_Orange,FF:EE:DD:44:55:66,Unknown,-63,1,

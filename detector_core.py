@@ -72,7 +72,7 @@ def hopper_worker(interface, channels):
     while not STOP_EVENT.is_set():
         nic_manager.set_channel(channels[idx % len(channels)])
         idx += 1
-        time.sleep(2.5)
+        time.sleep(0.5)
 
 def run_detection_check():
     """Analyse tous les APs pour détecter les anomalies et calculer les scores."""
