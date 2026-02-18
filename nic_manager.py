@@ -1,59 +1,21 @@
-import subprocess
-import os
-import sys
-import time
+import subprocess, os, sys
 
-INTERFACE_NAME = "wlan0" # Remplace par le nom de TA carte (ex: wlan0 ou wlan1)
+# ICI : Mets le nom EXACT que tu vois après l'étape 1 (probablement wlan0mon)
+INTERFACE_NAME = "wlan0mon" 
 
-def run_cmd(command: list):
-    try:
-        # On utilise shell=False pour la sécurité
-        subprocess.run(command, check=True, capture_output=True, text=True)
-    except subprocess.CalledProcessError as e:
-        print(f"[ERREUR] Commande échouée : {' '.join(command)}")
-        return False
-    return True
+def check_root():
+    if os.getuid() != 0:
+        print("SUDO REQUIS"); sys.exit(1)
 
 def auto_setup_monitor():
-    """Active le mode moniteur automatiquement sur Kali Linux."""
-    if os.geteuid() != 0:
-        print("\n[!] ERREUR : Tu dois lancer le script avec SUDO.")
-        sys.exit(1)
+    # On ne fait plus rien ici, on considère que tu as lancé le mode moniteur à la main
+    print(f"[*] Interface configurée sur : {INTERFACE_NAME}")
+    return INTERFACE_NAME
 
-    print(f"[*] Configuration de {INTERFACE_NAME}...")
-
-    # 1. Tuer les processus bloquants (airmon-ng check kill)
-    print("[*] Nettoyage des processus gênants (NetworkManager...)")
-    run_cmd(["airmon-ng", "check", "kill"])
-
-    # 2. Passer en mode moniteur
-    print(f"[*] Passage de {INTERFACE_NAME} en mode moniteur...")
-    run_cmd(["ip", "link", "set", INTERFACE_NAME, "down"])
-    run_cmd(["iw", "dev", INTERFACE_NAME, "set", "type", "monitor"])
-    run_cmd(["ip", "link", "set", INTERFACE_NAME, "up"])
-    
-    print("[OK] Mode Moniteur activé.")
-    time.sleep(1)
+def set_channel(channel):
+    # Commande ultra-simple pour changer de canal
+    subprocess.run(["iw", "dev", INTERFACE_NAME, "set", "channel", str(channel)], capture_output=True)
 
 def cleanup():
-    """Remet la carte en mode normal et relance les services réseau."""
-    print(f"\n[*] Restauration de {INTERFACE_NAME} en mode Managed...")
-    
-    try:
-        # Désactiver l'interface pour changer le mode
-        run_cmd(["ip", "link", "set", INTERFACE_NAME, "down"])
-        
-        # Repasser en mode managed (normal)
-        run_cmd(["iw", "dev", INTERFACE_NAME, "set", "type", "managed"])
-        
-        # Réactiver l'interface
-        run_cmd(["ip", "link", "set", INTERFACE_NAME, "up"])
-        
-        # Relancer NetworkManager pour retrouver internet
-        print("[*] Relance de NetworkManager...")
-        run_cmd(["systemctl", "restart", "NetworkManager"])
-        
-        print("[OK] Système restauré avec succès.")
-    except Exception as e:
-        print(f"[!] Erreur pendant la restauration : {e}")
-        print("[*] Astuce : Tapez 'sudo systemctl restart NetworkManager' manuellement.")
+    # On ne touche à rien à la fin pour ne pas perdre l'interface pendant la démo
+    print("[*] Fin de session.")
