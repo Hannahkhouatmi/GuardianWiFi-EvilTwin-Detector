@@ -183,7 +183,18 @@ def main():
     parser.add_argument("--simulate", action="store_true")
     parser.add_argument("--cli", action="store_true", help="Lancer en mode Terminal au lieu de GUI")
     args = parser.parse_args()
+    
+    if not args.simulate:
+        # ACTIVE LE MODE MONITEUR AUTOMATIQUEMENT
+        nic_manager.auto_setup_monitor()
+        
+        # Le nom de l'interface est maintenant géré par nic_manager
+        iface = nic_manager.INTERFACE_NAME
+        threading.Thread(target=packet_sniffer.start_sniffing, args=(iface, STOP_EVENT), daemon=True).start()
+    else:
+        threading.Thread(target=simulator.start_simulation, args=(STOP_EVENT,), daemon=True).start()
 
+    
     # On lance les moteurs de détection (Threads)
     if args.simulate:
         threading.Thread(target=simulator.start_simulation, args=(STOP_EVENT,), daemon=True).start()
